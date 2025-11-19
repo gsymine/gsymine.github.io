@@ -44,77 +44,6 @@
       "👋 Welcome! Director of Analytics with 7 years of experience in data science. I turn complex problems into structured solutions and applications. I am enthusiastic about LLM and Generative AI, and confirmly believe they will reshape the way we think and talk."
     ]
   },
-  "achievements": {
-    "title": "Key Highlights",
-    "items": [
-      {
-        "type": "youtube",
-        "title": "YouTube Channel",
-        "stat": "Some Subscribers",
-        "description": "Created a YouTube channel for sharing tutorials and insights on AI/ML, cloud technologies, and software development best practices.",
-        "icon": "📹",
-        "link": {
-          "url": "https://www.youtube.com/channel/UCCZiCzPtg9pmDwChJ4ROIpA?sub_confirmation=1",
-          "title": "Watch Videos"
-        }
-      },
-      {
-        "type": "linkedin",
-        "title": "Professional Network",
-        "stat": "5K+",
-        "description": "Built a strong professional network of 5,000+ connections, actively sharing knowledge and insights about AI/ML, cloud technologies, and career development.",
-        "icon": "🌐",
-        "link": {
-          "url": "https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=shishir-srivastav",
-          "title": "Connect on LinkedIn"
-        }
-      },
-      {
-        "type": "topmate",
-        "title": "Top 1% Mentor",
-        "stat": "Top 1%",
-        "description": "Ranked in the top 1% of mentors on Topmate, helping developers and professionals grow in their AI/ML careers with personalized guidance and industry insights.",
-        "icon": "🏆",
-        "link": {
-          "url": "https://topmate.io/shishir_srivastav",
-          "title": "View Profile"
-        }
-      },
-      {
-        "type": "instagram",
-        "title": "Instagram Community",
-        "stat": "Some Followers",
-        "description": "Building an engaged community on Instagram, sharing insights on AI/ML, cloud technologies, and personal development.",
-        "icon": "📸",
-        "link": {
-          "url": "https://www.instagram.com/programmatic.ly",
-          "title": "Connect on Instagram"
-        }
-      },
-      {
-        "type": "hashnode",
-        "title": "Hashnode Community",
-        "stat": "Some Followers",
-        "description": "Growing a community on Hashnode, sharing articles and tutorials on AI/ML, cloud technologies, and software development.",
-        "icon": "📝",
-        "link": {
-          "url": "https://shishirsrivastav.hashnode.dev",
-          "title": "Read Articles"
-        }
-      },
-      {
-        "type": "certifications",
-        "title": "Industry Certifications",
-        "stat": "10+",
-        "description": "Earned 10+ professional certifications from AWS, Oracle, Microsoft, and other leading technology companies, demonstrating expertise across multiple cloud platforms.",
-        "icon": "🎓",
-        "link": {
-          "url": "https://www.credly.com/users/shishir-srivastav-who",
-          "title": "View Certifications"
-        }
-      }
-    ]
-  },
   "projects": {
     "title": "Featured Projects",
     "items": [
@@ -124,7 +53,7 @@
         "description": [
           "Description 1"
         ],
-        "picture": "assets/projects/cafe-home.png",
+        "picture": "assets/projects/Placeholder.png",
         "link": {
           "url": "https://github.com/Shishir420-GIT/manzilcafe",
           "title": "View Project"
@@ -136,7 +65,7 @@
         "description": [
           "Description 2"
         ],
-        "picture": "assets/projects/automation-generator.png",
+        "picture": "assets/projects/Placeholder.png",
         "link": {
           "url": "https://github.com/Shishir420-GIT/Automation-Generator",
           "title": "View Project"
@@ -148,7 +77,7 @@
         "description": [
           "Description 3"
         ],
-        "picture": "assets/projects/crm-filler.png",
+        "picture": "assets/projects/Placeholder.png",
         "link": {
           "url": "https://github.com/Shishir420-GIT/Automated-Data-Filler-Agent",
           "title": "View Project"
@@ -160,7 +89,7 @@
         "description": [
           "Description 4"
         ],
-        "picture": "assets/projects/mobile-research.png",
+        "picture": "assets/projects/Placeholder.png",
         "link": {
           "url": "https://github.com/Shishir420-GIT/BnB-Hack-A-Thon",
           "title": "View Project"
@@ -179,8 +108,8 @@
           "Bullet point 1",
           "Bullet point 2"
         ],
-        "logo": "assets/logos/ey-logo-black.png",
-        "logo_dark": "assets/logos/ey-logo-black.png"
+        "logo": "assets/logos/Koning_Logo.jpg",
+        "logo_dark": "assets/logos/Koning_Logo.jpg"
       },
       {
         "company": "XLP Capital",
@@ -190,8 +119,8 @@
           "Bullet point 1",
           "Bullet point 2"
         ],
-        "logo": "assets/logos/Wipro-Logo.png",
-        "logo_dark": "assets/logos/Wipro-Logo.png"
+        "logo": "assets/logos/XLP_Logo.jpeg",
+        "logo_dark": "assets/logos/XLP_Logo.jpeg"
       }
     ]
   },
@@ -293,13 +222,9 @@
       }
     ]
   },
-  "github_projects": {
-    "title": "Projects on GitHub"
-  },
   "footer": {
     "show_social_links": true,
     "show_built_with": true,
-    "built_with_text": "Built with ❤️ using vanilla JavaScript • Open Source",
-    "tagline": "Let's connect and build something amazing together! 🚀"
+    "built_with_text": "Inspired and forked from: https://github.com/Shishir420-GIT/Shishir420-GIT.github.io"
   }
 }
