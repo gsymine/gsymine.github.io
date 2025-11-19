@@ -36,36 +36,6 @@
       "url": "https://www.linkedin.com/in/derrick-gu-9b5908a6/",
       "icon": "linkedin",
       "required": true
-    },
-    {
-      "name": "X (Twitter)",
-      "url": "https://x.com/gu_siyao",
-      "icon": "twitter",
-      "required": false
-    },
-    {
-      "name": "Instagram",
-      "url": "https://www.instagram.com/programmatic.ly",
-      "icon": "instagram",
-      "required": false
-    },
-    {
-      "name": "YouTube",
-      "url": "https://www.youtube.com/channel/UCCZiCzPtg9pmDwChJ4ROIpA?sub_confirmation=1",
-      "icon": "youtube",
-      "required": false
-    },
-    {
-      "name": "Hashnode",
-      "url": "https://shishirsrivastav.hashnode.dev",
-      "icon": "hashnode",
-      "required": false
-    },
-    {
-      "name": "Linktree",
-      "url": "https://linktr.ee/shishirsrivastav",
-      "icon": "website",
-      "required": false
     }
   ],
   "github_username": "gsymine",
