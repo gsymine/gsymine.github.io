@@ -8,14 +8,14 @@
     "github_projects": true
   },
   "site": {
-    "title": "Shishir Srivastav - AI/ML Engineer & Tech Content Creator",
-    "description": "Senior Python Developer with almost 5 years of experience, I simplify complex tasks and believe that ‘if it is structured, it can be automated’. My keen interest in Generative AI and its capabilities has allowed me to build and even win prizes by building and presenting Generative AI-based applications in various places. So let me ask you, what are we going to build next?",
+    "title": "Siyao (Derrick) Gu - AI/ML Professional",
+    "description": "Director of Analytics with 7 years of experience in data science. I turn complex problems into structured solutions and applications. I am enthusiastic about LLM and Generative AI, and confirmly believe they will reshape the way we think and talk.",
     "seo": {
-      "title": "Shishir Srivastav - AI/ML Engineer & Tech Content Creator",
-      "description": "Senior Python Developer with almost 5 years of experience, I simplify complex tasks and believe that ‘if it is structured, it can be automated’. My keen interest in Generative AI and its capabilities has allowed me to build and even win prizes by building and presenting Generative AI-based applications in various places. So let me ask you, what are we going to build next?",
-      "keywords": "Python, AI, ML, Multi Cloud - AWS • GCP • Azure • OCI, Expertise in Generative AI, Automation, Scripting, DevOps, Designing, Troubleshooting, software engineer",
-      "author": "Shishir Srivastav",
-      "og_image": "https://avatars.githubusercontent.com/Shishir420-GIT",
+      "title": "Siyao (Derrick) Gu - AI/ML Professional",
+      "description": "Director of Analytics with 7 years of experience in data science. I turn complex problems into structured solutions and applications. I am enthusiastic about LLM and Generative AI, and confirmly believe they will reshape the way we think and talk.",
+      "keywords": "Python, C, Java, AI, ML, Cloud - AWS, GCP, Generative AI, Deep Learning, Reinforcement Learning, Data Science, LLM, Web Scraping",
+      "author": "Siyao (Derrick) Gu",
+      "og_image": "assets/projects/0_profile.jpeg",
       "twitter_card": "summary_large_image",
       "base_url": "https://Shishir420-GIT.github.io"
     }
