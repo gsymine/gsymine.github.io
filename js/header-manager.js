@@ -7,7 +7,8 @@ export class HeaderManager {
         
         // Update profile image
         if (githubUsername) {
-            document.querySelector('.profile-img').src = `https://avatars.githubusercontent.com/${githubUsername}`;
+            // document.querySelector('.profile-img').src = `https://avatars.githubusercontent.com/${githubUsername}`;
+            document.querySelector('.profile-img').src = `assets/projects/0_profile.jpeg`;
         }
         
         // Update header text
