@@ -17,29 +17,29 @@
       "author": "Siyao (Derrick) Gu",
       "og_image": "assets/projects/0_profile.jpeg",
       "twitter_card": "summary_large_image",
-      "base_url": "https://Shishir420-GIT.github.io"
+      "base_url": "https://gsymine.github.io/"
     }
   },
   "header": {
-    "greeting": "Shishir Srivastav",
-    "tagline": "Senior AI/ML Engineer & Tech Content Creator"
+    "greeting": "Siyao (Derrick) Gu",
+    "tagline": "AI/ML Professional"
   },
   "social_links": [
     {
       "name": "GitHub",
-      "url": "https://github.com/Shishir420-GIT",
+      "url": "https://github.com/gsymine",
       "icon": "github",
       "required": true
     },
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=shishir-srivastav",
+      "url": "https://www.linkedin.com/in/derrick-gu-9b5908a6/",
       "icon": "linkedin",
       "required": true
     },
     {
       "name": "X (Twitter)",
-      "url": "https://x.com/shishir_who",
+      "url": "https://x.com/gu_siyao",
       "icon": "twitter",
       "required": false
     },
@@ -68,10 +68,10 @@
       "required": false
     }
   ],
-  "github_username": "Shishir420-GIT",
+  "github_username": "gsymine",
   "about": {
     "paragraphs": [
-      "👋 Welcome! I'm Senior Developer with almost 5 years of experience, I simplify complex tasks and believe that ‘if it is structured, it can be automated’. My keen interest in Generative AI and its capabilities has allowed me to build and even win prizes by building and presenting Generative AI-based applications in various places. So let me ask you, what are we going to build next?"
+      "👋 Welcome! Director of Analytics with 7 years of experience in data science. I turn complex problems into structured solutions and applications. I am enthusiastic about LLM and Generative AI, and confirmly believe they will reshape the way we think and talk."
     ]
   },
   "achievements": {
@@ -149,7 +149,7 @@
     "title": "Featured Projects",
     "items": [
       {
-        "name": "Manzil café - A Virtual Space",
+        "name": "Test 1",
         "date": "July 2025",
         "description": [
           "A virtual social café platform with multi-tenant café spaces, real-time chat, AI bartender integration, voice messaging, virtual ordering, and enterprise-grade security. Experience the future of social interaction in beautifully themed virtual environments.",
