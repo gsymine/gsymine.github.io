@@ -514,6 +514,7 @@ export class SectionManager {
             'TypeScript': '🔷',
             'Java': '☕',
             'C++': '⚡',
+            'C': '⚡',
             'R': '📊',
             'HTML5': '🌐',
             'CSS3': '🎨',

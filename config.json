@@ -131,53 +131,62 @@
         "name": "Programming Languages",
         "items": [
           "Python",
-          "R",
+          "C",
           "Java",
+          "R",
           "JavaScript",
-          "TypeScript",
-          "PowerShell",
           "Shell/Bash Scripting"
         ]
       },
       {
-        "name": "AI & Machine Learning",
+        "name": "AI & ML Concepts",
         "items": [
-          "AI Security",
           "Generative AI",
-          "Natural Language Processing (NLP)",
-          "Machine Learning",
-          "Deep Learning",
-          "Computer Vision",
           "AI Agents",
-          "Function Calling",
+          "Natural Language Processing (NLP)",
+          "Deep Learning",
+          "Reinforcement Learning",
+          "Machine Learning",
           "RAG (Retrieval Augmented Generation)",
           "LangChain",
           "LangGraph"
         ]
       },
       {
+        "name": "AI & ML Tools",
+        "items": [
+          "Pytorch",
+          "LlamaIndex",
+          "LangChain",
+          "Pandas",
+          "NumPy",
+          "Scikit-learn"
+        ]
+      },
+      {
+        "name": "Back-End",
+        "items": [
+          "MongoDB",
+          "PostgreSQL",
+          "MySQL",
+          "Flask",
+          "REST API",
+          "Streamlit"
+        ]
+      },
+      {
         "name": "Cloud Platforms",
         "items": [
           "AWS",
-          "Google Cloud Platform (GCP)",
-          "Microsoft Azure",
-          "Oracle Cloud Infrastructure (OCI)"
+          "Google Cloud Platform (GCP)"
         ]
       },
       {
         "name": "DevOps & Automation",
         "items": [
           "CI/CD",
-          "Infrastructure as Code (IaC)",
           "Docker",
-          "Kubernetes",
-          "Terraform",
-          "Ansible",
-          "Jenkins",
-          "AzureDevOps",
-          "GitHub Actions",
-          "AWS Lambda",
-          "Boto3 Automations"
+          "Git"
         ]
       },
       {
@@ -187,44 +196,14 @@
           "CSS",
           "JavaScript",
           "React.js",
-          "Next.js",
-          "Node.js",
-          "Express.js"
-        ]
-      },
-      {
-        "name": "Back-End",
-        "items": [
-          "Node.js",
-          "MongoDB",
-          "PostgreSQL",
-          "MySQL",
-          "Redis",
-          "Django",
-          "FastAPI",
-          "Flask",
-          "REST API",
-          "Streamlit"
-        ]
-      },
-      {
-        "name": "Certifications & Learning",
-        "items": [
-          {
-            "name": "View My Credly Profile",
-            "url": "https://www.credly.com/users/shishir-srivastav-who"
-          },
-          {
-            "name": "Building RAG Apps Using MongoDB",
-            "url": "https://www.credly.com/badges/887765e6-4058-43cc-9853-d2fbe2bbe7f4/public_url"
-          }
+          "Node.js"
         ]
       }
     ]
   },
   "footer": {
-    "show_social_links": true,
-    "show_built_with": true,
+    "show_social_links": false,
+    "show_built_with": false,
     "built_with_text": "Inspired and forked from: https://github.com/Shishir420-GIT/Shishir420-GIT.github.io"
   }
 }

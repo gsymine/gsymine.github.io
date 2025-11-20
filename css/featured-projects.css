@@ -28,7 +28,8 @@
     background: var(--featured-project-card);
 
     /* border: 1px solid rgba(0, 255, 255, 0.2); */
-    border: 1px solid rgba(20, 85, 85, 0.856);
+    /* border: 1px solid rgba(20, 85, 85, 0.856); */
+    border: 1px solid var(--border-color);
 
     border-radius: 15px;
     overflow: hidden;
