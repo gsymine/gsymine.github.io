@@ -5,9 +5,7 @@ export class MatrixRain {
         this.ctx = null;
         this.columns = [];
         this.fontSize = 14;
-        // this.matrix = "अआइईउऊऋएऐओऔकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह01";
-        // this.matrix = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        this.matrix = "我爱宝贝";
+        this.matrix = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         this.animationId = null;
     }
 
