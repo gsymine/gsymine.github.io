@@ -538,17 +538,28 @@ export class SectionManager {
             'TensorFlow': '🧠',
             'Scikit-learn': '🤖',
             'LangChain': '🔗',
-            'Streamlit': '📊',
             'Gradio': '🎛️',
+
+
+            'Generative AI': '🧑‍💼',
+            'AI Agents': '🧑‍💼',
+            'Natural Language Processing (NLP)': '🗣️',
+            'Deep Learning': '📚',
+            'Reinforcement Learning': '📚',
+            'Machine Learning': '📚',
+            'RAG (Retrieval Augmented Generation)': '🔍',
+
+
+
             
             // Cloud & DevOps
-            'AWS Services': '☁️',
+            'AWS': '☁️',
             'Google Cloud Platform (GCP)': '🌩️',
             'Docker': '🐳',
             'Kubernetes': '⚓',
             'Terraform': '🏗️',
             'Linux/Unix': '🐧',
-            'Git & GitHub': '🐙',
+            'Git': '🐙',
             
             // Default
             'default': '⚙️'

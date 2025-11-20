@@ -155,7 +155,7 @@
       {
         "name": "AI & ML Tools",
         "items": [
-          "Pytorch",
+          "PyTorch",
           "LlamaIndex",
           "LangChain",
           "Pandas",
