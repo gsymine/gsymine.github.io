@@ -27,7 +27,9 @@
     /* background: rgba(30, 41, 59, 0.9); */
     background: var(--featured-project-card);
 
-    border: 1px solid rgba(0, 255, 255, 0.2);
+    /* border: 1px solid rgba(0, 255, 255, 0.2); */
+    border: 1px solid rgba(20, 85, 85, 0.856);
+
     border-radius: 15px;
     overflow: hidden;
     transition: all 0.3s ease;
