@@ -60,6 +60,28 @@
         padding: 0 1rem 1.5rem;
         max-height: 500px;
     }
+
+    .education-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .education-header-content {
+        width: 100%;
+    }
+
+    .education-content {
+        padding: 0;
+        text-align: left;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .education-item.expanded .education-content {
+        padding: 0 1rem 1.5rem;
+        max-height: 500px;
+    }
     
     .company-logo {
         width: 180px;

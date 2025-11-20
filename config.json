@@ -4,6 +4,7 @@
     "achievements": false,
     "projects": true,
     "experience": true,
+    "education": true,
     "skills": true,
     "github_projects": false
   },
@@ -115,6 +116,33 @@
         "company": "XLP Capital",
         "role": "Quantitative Analyst",
         "date": "March 2018 - October 2019",
+        "responsibilities": [
+          "Bullet point 1",
+          "Bullet point 2"
+        ],
+        "logo": "assets/logos/XLP_Logo.jpeg",
+        "logo_dark": "assets/logos/XLP_Logo.jpeg"
+      }
+    ]
+  },
+  "education": {
+    "title": "Educational Experience",
+    "jobs": [
+      {
+        "company": "Georgia Institute of Technology",
+        "role": "MS in Computer Science",
+        "date": "August 2022 - August 2025",
+        "responsibilities": [
+          "Bullet point 1",
+          "Bullet point 2"
+        ],
+        "logo": "assets/logos/Koning_Logo.jpg",
+        "logo_dark": "assets/logos/Koning_Logo.jpg"
+      },
+      {
+        "company": "Cornell University",
+        "role": "MEng in Operations Research and Information Engineering",
+        "date": "August 2016 - December 2017",
         "responsibilities": [
           "Bullet point 1",
           "Bullet point 2"

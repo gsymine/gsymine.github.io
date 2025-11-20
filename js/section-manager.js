@@ -24,6 +24,7 @@ export class SectionManager {
             achievements: true,
             projects: true,
             experience: true,
+            education: true,
             skills: true,
             github_projects: true,
             ...config.features
@@ -34,6 +35,7 @@ export class SectionManager {
         this.toggleSection('achievements', features.achievements);
         this.toggleSection('projects', features.projects);
         this.toggleSection('experience', features.experience);
+        this.toggleSection('education', features.education);
         this.toggleSection('projects-on-github', features.github_projects);
         this.toggleSection('skills', features.skills);
         
@@ -52,6 +54,10 @@ export class SectionManager {
         
         if (features.experience) {
             this.updateExperienceSection(config);
+        }
+
+        if (features.education) {
+            this.updateEducationSection(config);
         }
         
         // Update "Projects on GitHub" section title from config if available
@@ -386,6 +392,115 @@ export class SectionManager {
     toggleExperienceAccordion(experienceItem) {
         experienceItem.classList.toggle('expanded');
     }
+
+
+
+
+
+
+
+    // Update education section dynamically
+    updateEducationSection(config) {
+        const educationSection = document.querySelector('.education');
+        const titleElement = educationSection.querySelector('h2');
+        
+        if (titleElement) {
+            titleElement.textContent = this.configManager.getSectionTitle('education');
+        }
+        
+        // Clear existing education items
+        const existingItems = educationSection.querySelectorAll('.education-item');
+        existingItems.forEach(item => item.remove());
+        
+        // Create document fragment
+        const fragment = document.createDocumentFragment();
+        
+        // Add all education items to fragment
+        if (config.education?.jobs?.length) {
+            config.education.jobs.forEach(job => {
+                const educationItem = this.createEducationItem(job);
+                fragment.appendChild(educationItem);
+            });
+        } else {
+            // Show placeholder for empty education
+            const emptyState = document.createElement('div');
+            emptyState.className = 'education-item';
+            emptyState.innerHTML = `
+                <div class="education-content">
+                    <h3>Your Education Will Appear Here</h3>
+                    <p class="date">Ready to showcase your career</p>
+                    <ul>
+                        <li>Add your work education to the config.json file</li>
+                        <li>Include company logos and job descriptions</li>
+                        <li>Highlight your achievements and responsibilities</li>
+                    </ul>
+                </div>
+            `;
+            fragment.appendChild(emptyState);
+        }
+        
+        // Append all education items at once
+        educationSection.appendChild(fragment);
+    }
+
+    // Create individual education item
+    createEducationItem(job) {
+        const educationItem = document.createElement('div');
+        educationItem.className = 'education-item';
+        
+        const responsibilitiesHtml = Array.isArray(job.responsibilities)
+            ? job.responsibilities.map(resp => `<li>${resp}</li>`).join('')
+            : `<li>${job.responsibilities}</li>`;
+        
+        let logoHtml = '';
+        if (job.logo || job.logo_dark) {
+            logoHtml = `
+                <div class="company-logo">
+                    ${job.logo ? `<img src="${job.logo}" alt="${job.company} logo" class="light-mode-logo" loading="lazy">` : ''}
+                    ${job.logo_dark ? `<img src="${job.logo_dark}" alt="${job.company} logo" class="dark-mode-logo" loading="lazy">` : ''}
+                </div>
+            `;
+        }
+        
+        educationItem.innerHTML = `
+            <div class="education-header">
+                <div class="education-header-content">
+                    <h3>${job.company} | ${job.role}</h3>
+                    ${job.date ? `<p class="date">${job.date}</p>` : ''}
+                </div>
+                ${logoHtml}
+                <div class="accordion-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6,9 12,15 18,9"></polyline>
+                    </svg>
+                </div>
+            </div>
+            <div class="education-content">
+                <ul>
+                    ${responsibilitiesHtml}
+                </ul>
+            </div>
+        `;
+        
+        // Add click event listener for accordion functionality
+        const header = educationItem.querySelector('.education-header');
+        header.addEventListener('click', () => {
+            this.toggleExperienceAccordion(educationItem);
+        });
+        
+        return educationItem;
+    }
+
+    // Toggle education accordion
+    toggleExperienceAccordion(educationItem) {
+        educationItem.classList.toggle('expanded');
+    }
+
+
+
+
+
+
 
     // Toggle project accordion
     toggleProjectAccordion(projectItem) {

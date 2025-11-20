@@ -47,6 +47,7 @@ export class ConfigManager {
             about: 'About',
             projects: this.config?.projects?.title || 'Projects',
             experience: this.config?.experience?.title || 'Experience',
+            education: this.config?.education?.title || 'Education',
             skills: this.config?.skills?.title || 'Skills',
             github_projects: this.config?.github_projects?.title || 'GitHub Projects'
         };
@@ -62,6 +63,8 @@ export class ConfigManager {
                 return this.config?.projects?.items?.length > 0;
             case 'experience':
                 return this.config?.experience?.jobs?.length > 0;
+            case 'education':
+                return this.config?.education?.jobs?.length > 0;
             case 'skills':
                 return this.config?.skills?.categories?.length > 0;
             case 'github_projects':
