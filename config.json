@@ -133,22 +133,44 @@
         "role": "MS in Computer Science",
         "date": "August 2022 - August 2025",
         "responsibilities": [
-          "Bullet point 1",
-          "Bullet point 2"
+          "GPA: 3.88 / 4.00",
+          "Relevant Coursework: High Performance Computing, High Performance Computer Architecture, Natural Language Processing, Reinforcement Learning, Deep Learning, Graduate Operating Systems"
         ],
-        "logo": "assets/logos/Koning_Logo.jpg",
-        "logo_dark": "assets/logos/Koning_Logo.jpg"
+        "logo": "assets/logos/GA_Tech_Logo.png",
+        "logo_dark": "assets/logos/GA_Tech_Logo.png"
       },
       {
         "company": "Cornell University",
         "role": "MEng in Operations Research and Information Engineering",
         "date": "August 2016 - December 2017",
         "responsibilities": [
-          "Bullet point 1",
-          "Bullet point 2"
+          "GPA: 3.65 / 4.00",
+          "Relevant Coursework: Optimization, Quantitative Risk Management, Machine Learning, Data Mining"
         ],
-        "logo": "assets/logos/XLP_Logo.jpeg",
-        "logo_dark": "assets/logos/XLP_Logo.jpeg"
+        "logo": "assets/logos/Cornell_Logo.png",
+        "logo_dark": "assets/logos/Cornell_Logo.png"
+      },
+      {
+        "company": "University of Minnesota - Twin Cities",
+        "role": "BA in Mathematics & Economics",
+        "date": "August 2014 - June 2016",
+        "responsibilities": [
+          "GPA: 3.86 / 4.00",
+          "Relevant Coursework: Stochastic Processes, Intro to C++, Data Structure with Java"
+        ],
+        "logo": "assets/logos/U_M_Logo.png",
+        "logo_dark": "assets/logos/U_M_Logo.png"
+      },
+      {
+        "company": "Sichuan University",
+        "role": "Bachelor of Business in Finance",
+        "date": "August 2012 - June 2016",
+        "responsibilities": [
+          "GPA: 3.67 / 4.00",
+          "Relevant Coursework: Corporate Finance, Accounting, Financial Economics, Derivatives"
+        ],
+        "logo": "assets/logos/SU_Logo.png",
+        "logo_dark": "assets/logos/SU_Logo.png"
       }
     ]
   },
