@@ -59,6 +59,10 @@ export class SectionManager {
         if (features.education) {
             this.updateEducationSection(config);
         }
+
+        if (features.education) {
+            this.updateEducationSection(config);
+        }
         
         // Update "Projects on GitHub" section title from config if available
         if (features.github_projects && config.github_projects?.title) {
@@ -492,7 +496,7 @@ export class SectionManager {
     }
 
     // Toggle education accordion
-    toggleExperienceAccordion(educationItem) {
+    toggleEducationAccordion(educationItem) {
         educationItem.classList.toggle('expanded');
     }
 
