@@ -9,8 +9,8 @@ export class ThemeManager {
         this.themeSwitch = document.querySelector('.theme-switch');
         
         // Check for saved theme preference
-        // const savedTheme = localStorage.getItem('theme') || 'light';
-        const savedTheme = localStorage.getItem('theme') || 'dark';
+        const savedTheme = localStorage.getItem('theme') || 'light'; // default: light theme
+        // const savedTheme = localStorage.getItem('theme') || 'dark'; // default: dark theme
         this.root.setAttribute('data-theme', savedTheme);
 
         // Add event listener for theme switch

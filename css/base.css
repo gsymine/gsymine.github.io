@@ -122,7 +122,8 @@
 :root[data-theme="dark"] {
     --background-color: var(--gray-900);
     --surface-color: var(--gray-800);
-    --card-background: var(--gray-800);
+    /* --card-background: var(--gray-800); */
+    --card-background: var(--gray-400);
     --text-color: var(--gray-100);
     --text-muted: var(--gray-400);
     --heading-color: var(--gray-50);
