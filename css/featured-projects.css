@@ -25,7 +25,8 @@
 
 .featured-project-card {
     /* background: rgba(30, 41, 59, 0.9); */
-    background: rgba(182, 198, 207, 0.904);
+    background: var(--featured-project-card);
+
     border: 1px solid rgba(0, 255, 255, 0.2);
     border-radius: 15px;
     overflow: hidden;

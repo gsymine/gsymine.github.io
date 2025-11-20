@@ -7,6 +7,10 @@
 
 /* Custom Properties */
 :root {
+    /* new color */
+    --featured-project-card: rgb(255, 255, 255);
+
+
     /* Modern Color System */
     --primary-50: #eff6ff;
     --primary-100: #dbeafe;
@@ -120,6 +124,10 @@
 
 /* Dark mode */
 :root[data-theme="dark"] {
+    /* new code */
+    --featured-project-card: rgba(30, 41, 59, 0.9);
+
+
     --background-color: var(--gray-900);
     --surface-color: var(--gray-800);
     --card-background: var(--gray-800);
