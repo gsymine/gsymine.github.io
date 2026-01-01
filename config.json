@@ -220,8 +220,7 @@
           "PostgreSQL",
           "MySQL",
           "Flask",
-          "REST API",
-          "Streamlit"
+          "REST API"
         ]
       },
       {
@@ -246,7 +245,8 @@
           "CSS",
           "JavaScript",
           "React.js",
-          "Node.js"
+          "Node.js",
+          "Streamlit"
         ]
       }
     ]
