@@ -64,7 +64,7 @@
       },
       {
         "name": "3D U-Net Tumor Detection System",
-        "date": "Date 2",
+        "date": "Date 2 ",
         "description": [
           "Built a Python-based 3D U-Net model that ingests 3D images and automatically highlights potential regions of interest for cancer detection.     |     ",
           "Designed a closed-loop workflow using REST APIs for feedback on model correctness and model retraining."
