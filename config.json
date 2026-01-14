@@ -98,7 +98,7 @@
           "Distilled supervision from a Qwen2.5-VL-7B teacher model, leveraging teacher-generated information with a combined BCE, KL-divergence, and contrastive losses.     |     ",
           "Achieved 0.7 AUC and 65% accuracy on the held-out test set."
         ],
-        "picture": "assets/projects/Project_4.png",
+        "picture": "assets/projects/Project_4.jpg",
         "link": {
           "url": "https://github.com/gsymine",
           "title": "View Project"
