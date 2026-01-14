@@ -52,11 +52,11 @@
         "name": "AI Agent for Due Diligence",
         "date": "Date 1",
         "description": [
-          "Built a Python-based multi-agent LLM due diligence system that assesses people's financial stability and risk profile.",
-          "Orchestrated an end-to-end workflow that ingests people's data, expands the knowledge base via external APIs and internal documents, applies a LlamaIndex-based RAG over it, and runs an iterative critique-and-revision agent loop to produce high-quality summaries.",
+          "Built a Python-based multi-agent LLM due diligence system that assesses people's financial stability and risk profile.     |     ",
+          "Orchestrated an end-to-end workflow that ingests people's data, expands the knowledge base via external APIs and internal documents, applies a LlamaIndex-based RAG over it, and runs an iterative critique-and-revision agent loop to produce high-quality summaries.     |     ",
           "Delivered interactive reports through a Streamlit-based web application."
         ],
-        "picture": "assets/projects/Placeholder.png",
+        "picture": "assets/projects/Project_1.jpg",
         "link": {
           "url": "https://github.com/gsymine",
           "title": "View Project"
@@ -66,10 +66,10 @@
         "name": "3D U-Net Tumor Detection System",
         "date": "Date 2",
         "description": [
-          "Built a Python-based 3D U-Net model that ingests 3D images and automatically highlights potential regions of interest for cancer detection.",
+          "Built a Python-based 3D U-Net model that ingests 3D images and automatically highlights potential regions of interest for cancer detection.     |     ",
           "Designed a closed-loop workflow using REST APIs for feedback on model correctness and model retraining."
         ],
-        "picture": "assets/projects/Placeholder.png",
+        "picture": "assets/projects/Project_2.jpg",
         "link": {
           "url": "https://github.com/gsymine",
           "title": "View Project"
@@ -79,11 +79,11 @@
         "name": "ML-Driven Trading Strategy",
         "date": "Date 3",
         "description": [
-          "Built a data collection engine that pulls public market data via APIs and alternative data via Python web scraping (Selenium, Scrapy), storing all datasets in cloud-hosted relational and nonrelational databases.",
-          "Engineered multi-frequency features (daily, weekly, etc.) and applied Gaussian regression to align signals on a monthly horizon before training a hybrid gradient-boosted tree and LSTM model to forecast financial assets performance.",
+          "Built a data collection engine that pulls public market data via APIs and alternative data via Python web scraping (Selenium, Scrapy), storing all datasets in cloud-hosted relational and nonrelational databases.     |     ",
+          "Engineered multi-frequency features (daily, weekly, etc.) and applied Gaussian regression to align signals on a monthly horizon before training a hybrid gradient-boosted tree and LSTM model to forecast financial assets performance.     |     ",
           "Ran systematic backtests and monitored both {regression and classification metrics after deployment, with the trading algorithm outperforming its benchmark by approximately 2.2%."
         ],
-        "picture": "assets/projects/Placeholder.png",
+        "picture": "assets/projects/Project_3.jpg",
         "link": {
           "url": "https://github.com/gsymine",
           "title": "View Project"
@@ -93,12 +93,12 @@
         "name": "Multimodal Hateful Meme Detection",
         "date": "Date 4",
         "description": [
-          "Developed a multimodal hateful meme detection system using a teacher–student framework, combining vision and text signals to classify harmful content.",
-          "Trained a student model with a SigLIP2 vision encoder, DeBERTa-v3 text encoder, cross-attention fusion, and a gated modality controller to integrate image and text information.",
-          "Distilled supervision from a Qwen2.5-VL-7B teacher model, leveraging teacher-generated information with a combined BCE, KL-divergence, and contrastive losses.",
+          "Developed a multimodal hateful meme detection system using a teacher–student framework, combining vision and text signals to classify harmful content.     |     ",
+          "Trained a student model with a SigLIP2 vision encoder, DeBERTa-v3 text encoder, cross-attention fusion, and a gated modality controller to integrate image and text information.     |     ",
+          "Distilled supervision from a Qwen2.5-VL-7B teacher model, leveraging teacher-generated information with a combined BCE, KL-divergence, and contrastive losses.     |     ",
           "Achieved 0.7 AUC and 65% accuracy on the held-out test set."
         ],
-        "picture": "assets/projects/Placeholder.png",
+        "picture": "assets/projects/Project_4.png",
         "link": {
           "url": "https://github.com/gsymine",
           "title": "View Project"
