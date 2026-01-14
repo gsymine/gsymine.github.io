@@ -49,50 +49,58 @@
     "title": "Featured Projects",
     "items": [
       {
-        "name": "Test 1",
+        "name": "AI Agent for Due Diligence",
         "date": "Date 1",
         "description": [
-          "Description 1"
+          "Built a Python-based multi-agent LLM due diligence system that assesses people's financial stability and risk profile.",
+          "Orchestrated an end-to-end workflow that ingests people's data, expands the knowledge base via external APIs and internal documents, applies a LlamaIndex-based RAG over it, and runs an iterative critique-and-revision agent loop to produce high-quality summaries.",
+          "Delivered interactive reports through a Streamlit-based web application."
         ],
         "picture": "assets/projects/Placeholder.png",
         "link": {
-          "url": "https://github.com/Shishir420-GIT/manzilcafe",
+          "url": "https://github.com/gsymine",
           "title": "View Project"
         }
       },
       {
-        "name": "Test 2",
+        "name": "3D U-Net Tumor Detection System",
         "date": "Date 2",
         "description": [
-          "Description 2"
+          "Built a Python-based 3D U-Net model that ingests 3D images and automatically highlights potential regions of interest for cancer detection.",
+          "Designed a closed-loop workflow using REST APIs for feedback on model correctness and model retraining."
         ],
         "picture": "assets/projects/Placeholder.png",
         "link": {
-          "url": "https://github.com/Shishir420-GIT/Automation-Generator",
+          "url": "https://github.com/gsymine",
           "title": "View Project"
         }
       },
       {
-        "name": "Test 3",
+        "name": "ML-Driven Trading Strategy",
         "date": "Date 3",
         "description": [
-          "Description 3"
+          "Built a data collection engine that pulls public market data via APIs and alternative data via Python web scraping (Selenium, Scrapy), storing all datasets in cloud-hosted relational and nonrelational databases.",
+          "Engineered multi-frequency features (daily, weekly, etc.) and applied Gaussian regression to align signals on a monthly horizon before training a hybrid gradient-boosted tree and LSTM model to forecast financial assets performance.",
+          "Ran systematic backtests and monitored both {regression and classification metrics after deployment, with the trading algorithm outperforming its benchmark by approximately 2.2%."
         ],
         "picture": "assets/projects/Placeholder.png",
         "link": {
-          "url": "https://github.com/Shishir420-GIT/Automated-Data-Filler-Agent",
+          "url": "https://github.com/gsymine",
           "title": "View Project"
         }
       },
       {
-        "name": "Test 4",
+        "name": "Multimodal Hateful Meme Detection",
         "date": "Date 4",
         "description": [
-          "Description 4"
+          "Developed a multimodal hateful meme detection system using a teacher–student framework, combining vision and text signals to classify harmful content.",
+          "Trained a student model with a SigLIP2 vision encoder, DeBERTa-v3 text encoder, cross-attention fusion, and a gated modality controller to integrate image and text information.",
+          "Distilled supervision from a Qwen2.5-VL-7B teacher model, leveraging teacher-generated information with a combined BCE, KL-divergence, and contrastive losses.",
+          "Achieved 0.7 AUC and 65% accuracy on the held-out test set."
         ],
         "picture": "assets/projects/Placeholder.png",
         "link": {
-          "url": "https://github.com/Shishir420-GIT/BnB-Hack-A-Thon",
+          "url": "https://github.com/gsymine",
           "title": "View Project"
         }
       }
@@ -102,23 +110,23 @@
     "title": "Professional Experience",
     "jobs": [
       {
-        "company": "Koning Corporaiton",
-        "role": "Senior Operations Research Analyst",
+        "company": "Koning Health",
+        "role": "MedTech",
         "date": "October 2019 - Present",
         "responsibilities": [
-          "Bullet point 1",
-          "Bullet point 2"
+          "January 2026 - Now: Director of Analytics",
+          "January 2023 - December 2025: Senior Operations Research Analyst",
+          "October 2019 - December 2022: Operations Research Analyst"
         ],
         "logo": "assets/logos/Koning_Logo.jpg",
         "logo_dark": "assets/logos/Koning_Logo.jpg"
       },
       {
         "company": "XLP Capital",
-        "role": "Quantitative Analyst",
+        "role": "Hedge Fund",
         "date": "March 2018 - October 2019",
         "responsibilities": [
-          "Bullet point 1",
-          "Bullet point 2"
+          "March 2018 - October 2019: Quantitative Analyst"
         ],
         "logo": "assets/logos/XLP_Logo.jpeg",
         "logo_dark": "assets/logos/XLP_Logo.jpeg"
