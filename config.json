@@ -50,7 +50,7 @@
     "items": [
       {
         "name": "AI Agent for Due Diligence",
-        "date": "Date 1 ",
+        "date": "Date 1",
         "description": [
           "Built a Python-based multi-agent LLM due diligence system that assesses people's financial stability and risk profile.     |     ",
           "Orchestrated an end-to-end workflow that ingests people's data, expands the knowledge base via external APIs and internal documents, applies a LlamaIndex-based RAG over it, and runs an iterative critique-and-revision agent loop to produce high-quality summaries.     |     ",
@@ -64,7 +64,7 @@
       },
       {
         "name": "3D U-Net Tumor Detection System",
-        "date": "Date 2 ",
+        "date": "Date 2",
         "description": [
           "Built a Python-based 3D U-Net model that ingests 3D images and automatically highlights potential regions of interest for cancer detection.     |     ",
           "Designed a closed-loop workflow using REST APIs for feedback on model correctness and model retraining."
